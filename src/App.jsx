@@ -1,12 +1,16 @@
-import { Estilos } from "./componentes/EstilosGlobais/Estilos";
 
+import { Estilos } from "./componentes/EstilosGlobais/Estilos";
+import {Card}  from './componentes/Card/Card'
+import { ProvedorTema } from "./componentes/ProvedorTema/ProvedorTema";
 
 function App() {
   return (
-    <div>
-      <Estilos/>
-      <h1>Freelando</h1>
-    </div>
+    <ProvedorTema>
+      <Estilos />
+      <Card>
+        <h1>Freelando</h1>
+      </Card>
+    </ProvedorTema>
   );
 }
 
