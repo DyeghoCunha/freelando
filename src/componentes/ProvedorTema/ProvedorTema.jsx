@@ -19,7 +19,7 @@ const tema = {
     neutras: {
       a: '#373737',
       b: '',
-      c: '',
+      c: '#F5F5F5',
       d: '',
     },
     dark: {
