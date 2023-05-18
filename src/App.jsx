@@ -8,6 +8,7 @@ import { CampoTexto } from "./componentes/CampoTexto/CampoTexto";
 import { Col, Container, Row } from "react-grid-system";
 import { Botao } from "./componentes/Botao/Botao";
 import { ListaSupensa } from "./componentes/ListaSuspensa/ListaSuspensa";
+import { Rodape } from "./componentes/Rodape/Rodape";
 
 
 const estadosBrasileiros = [
@@ -103,7 +104,7 @@ function App() {
         </Row>
 
       </Container>
-
+      <Rodape/>
     </ProvedorTema>
   );
 }
